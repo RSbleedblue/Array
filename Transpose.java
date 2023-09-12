@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class test2 {
     public static void transpose(int mattrix[][]){
         for(int i=0;i<mattrix.length;i++){
-            for(int j=i;j<mattrix.length-1;j++){
+            for(int j=i;j<mattrix[0].length;j++){
                 int temp = 0;
                 temp = mattrix[i][j];
                 mattrix[i][j] = mattrix[j][i];
